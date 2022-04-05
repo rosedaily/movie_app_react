@@ -5,9 +5,10 @@ function About() {
   return (
     <div className="about__container">
       <span>
-        "Freedom is the freedom to say that two plus two make four. If tha is granted, all else follows."
+        “Freedom is the freedom to say that two plus two make four. If that is granted, all else
+        follows.”
       </span>
-      <span>- Geore Owell, 1984</span>
+      <span>- George Orwell, 1984</span>
     </div>
   );
 }
