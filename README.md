@@ -20,3 +20,7 @@ https://rosedaily101.tistory.com/category/%F0%9F%8C%BC%20%EB%A1%9C%EC%A6%88%EB%8
     - 20220407 브랜치에 계속해서 실습
 
 
+🌱22.4.8.금
+  - 전일 진행 한 컴포넌트, props, JSX, 구조분해할당 복습
+  - 코드 보면서 내용 기억하기.
+
