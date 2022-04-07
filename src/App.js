@@ -11,6 +11,15 @@ function Food({ yogiyo }){
     );
 }
 
+function MyFavoriteSinger({ singer }){
+  return (
+    <div>
+      <h2>난 { singer }의 노래가 좋아! </h2>
+    </div>
+
+  )
+}
+
 //App 컴포넌트에서 Food 컴포넌트로 props(데이터) 보내기
 //  1. 보낼 곳(App)의 컴포넌트에서 props명 = props 값으로 설정.(주의. 값은 문자열은 "" 그 외는 {}를 통해 감싸서사용.)
 //  2. 받는 곳(Food)에서 인자값으로 받아서 사용한다.
@@ -33,6 +42,9 @@ function App() {  //App 컴포넌트를 정의
       <Food yogiyo="김치!"></Food>
       <Food yogiyo="라면!"></Food>
       <Food yogiyo="커피!"></Food>
+      <MyFavoriteSinger singer="아이유"></MyFavoriteSinger>
+      <MyFavoriteSinger singer="김범수"></MyFavoriteSinger>
+      <MyFavoriteSinger singer="안녕하신가영"></MyFavoriteSinger>
     </div>
   );
 }
