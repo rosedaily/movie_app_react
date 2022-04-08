@@ -24,3 +24,8 @@ https://rosedaily101.tistory.com/category/%F0%9F%8C%BC%20%EB%A1%9C%EC%A6%88%EB%8
   - 전일 진행 한 컴포넌트, props, JSX, 구조분해할당 복습
   - 코드 보면서 내용 기억하기.
 
+🌱22.4.9.토
+- 컴포넌트 여러개 만들기
+- map()함수를 통해 컴포넌트 여러개 만들기
+- prop-types 적용하기
+
