@@ -15,11 +15,6 @@ https://rosedaily101.tistory.com/category/%F0%9F%8C%BC%20%EB%A1%9C%EC%A6%88%EB%8
 
   - 기록을 위한 README Update
 
-
-  - 다음 할 일. 
-    - 20220407 브랜치에 계속해서 실습
-
-
 🌱22.4.8.금
   - 전일 진행 한 컴포넌트, props, JSX, 구조분해할당 복습
   - 코드 보면서 내용 기억하기.
@@ -29,3 +24,7 @@ https://rosedaily101.tistory.com/category/%F0%9F%8C%BC%20%EB%A1%9C%EC%A6%88%EB%8
 - map()함수를 통해 컴포넌트 여러개 만들기
 - prop-types 적용하기
 
+🌱22.4.10.일
+- 클래스형 컴포넌트 
+- 생명주기 함수
+- state
