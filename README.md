@@ -28,3 +28,7 @@ https://rosedaily101.tistory.com/category/%F0%9F%8C%BC%20%EB%A1%9C%EC%A6%88%EB%8
 - 클래스형 컴포넌트 
 - 생명주기 함수
 - state
+
+🌱22.4.11.월
+- axios활용하여 api호출
+- api를 이용해서 영화 리스트 가져오기
