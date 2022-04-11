@@ -32,3 +32,8 @@ https://rosedaily101.tistory.com/category/%F0%9F%8C%BC%20%EB%A1%9C%EC%A6%88%EB%8
 🌱22.4.11.월
 - axios활용하여 api호출
 - api를 이용해서 영화 리스트 가져오기
+
+🌱22.4.12.화
+- react-route-dom 활용. 리다이렉트, 라우트
+- 영화 상세 페이지 생성
+- 2차 진행 완료
