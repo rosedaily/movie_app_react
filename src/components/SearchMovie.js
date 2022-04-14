@@ -1,12 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import PropTypes from "prop-types";
 import "./SearchMovie.css";
 
 function SearchMovie({id, year, title, poster, rathing, director, actor}) {
   return (
     <div className="movie">
-      <a href={id} target="_blank">
+      <a href={id} target="_blank" rel="noreferrer">
         <img src={poster} alt={title} title={title}></img>
         <div className="movie__data">
           <h3 className="movie__title">

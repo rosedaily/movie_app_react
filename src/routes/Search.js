@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import SearchMovie from '../components/SearchMovie'
-import "./Home.css";
 import "./Search.css"
 
 class Search extends React.Component {
@@ -21,14 +20,15 @@ class Search extends React.Component {
       }else{
         const {data: {
           items
-        }} = await axios.get('https://openapi.naver.com/v1/search/movie.json',{
+        }} = await axios.get('http://openapi.naver.com/v1/search/movie.json',{
           params:{
             query: search,
             display: 20
           }, 
           headers:{
             'X-Naver-Client-Id': ID_KEY, 
-            'X-Naver-Client-Secret': SECRET_KEY
+            'X-Naver-Client-Secret': SECRET_KEY,
+            'Access-Control-Allow-Origin': "http://localhost:3000/"
           }
         });
         // this.setState({movies: items, isLoading: false});
